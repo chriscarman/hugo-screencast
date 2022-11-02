@@ -1,0 +1,9 @@
+baseURL = 'http://hugo-screencast-ccarman.s3-website-us-east-1.amazonaws.com/'
+languageCode = 'en-us'
+title = 'Hugo AWS CD'
+theme="ananke"
+
+[[deployment.targets]]
+#Anarbitrarynameforthistarget.
+name="awsbucket"
+URL="s3://hugo-screencast-ccarman/?region=us-east-1"#yourbuckethere
